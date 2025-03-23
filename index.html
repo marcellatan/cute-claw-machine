@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claw Machine Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Catch Your Cute Buddies!</h1>
+        <nav>
+            <button id="collectionBtn">📦</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="claw-machine">
+            <div class="claw" id="claw">
+                <img src="assets/claw-short.png" alt="Claw">
+            </div>
+            <div class="toys-container" id="toys-container">
+                <!-- Toys will be displayed here -->
+            </div>
+            <div class="control-panel">
+                <div class="control-btn" id="btnLeft">
+                    <img src="assets/btnLeft.png" alt="Left" id="btnLeftImg">
+                </div>
+                <div class="control-btn" id="btnGrab">
+                    <img src="assets/btnGrab.png" alt="Grab" id="btnGrabImg">
+                </div>
+                <div class="control-btn" id="btnRight">
+                    <img src="assets/btnRight.png" alt="Right" id="btnRightImg">
+                </div>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <p>Use ← → arrow keys to move the claw, then press GRAB button to catch toys!</p>
+        </div>
+    </main>
+
+    <!-- Side Navbar for Collection -->
+    <aside id="collectionSidebar">
+        <h2>My Collection</h2>
+        <div id="collectionList"></div>
+        <button id="closeSidebar">Close</button>
+    </aside>
+    
+    <!-- Pop-up Modal to choose login -->
+    <div id="startModal" class="modal">
+        <div class="modal-content">
+            <h2>Welcome to Claw Machine!</h2>
+            <p>Choose how you want to play:</p>
+            <button id="modalLoginBtn">Login</button>
+            <button id="modalGuestBtn">Play as Guest</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <!-- Toy Caught Pop-up Card -->
+<div id="toyCaughtModal" class="modal">
+    <div class="modal-content toy-card">
+        <span class="close-btn" id="closeToyCard">×</span>
+        <div class="toy-image"></div>
+        <h2 id="toyCardName"></h2>
+        <p id="toyCardStatus"></p>
+        <button id="continuePlay">Continue Playing</button>
+    </div>
+</div>
+</body>
+</html>
