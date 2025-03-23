@@ -18,7 +18,7 @@ A simple web-based claw machine game where players can grab toys and collect the
 ## 📑 How to Run the Project  
 1. Clone this repository:  
    ```sh
-   git clone https://github.com/username/claw-machine-game.git
+   git clone https://github.com/username/cute-claw-machine.git
    ```
 2. Navigate to the project folder:  
    ```sh
@@ -42,7 +42,7 @@ If you'd like to contribute, feel free to **fork** this repository and submit a 
 ## 🌐 Live Demo  
 Check out the live demo of this project on **GitHub Pages**:  
 ```
-https://username.github.io/claw-machine-game/
+https://username.github.io/cute-claw-machine/
 ```
 
 ---
