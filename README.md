@@ -1,27 +1,50 @@
-**🕹️ Claw Machine Game**
-Claw Machine Game is a web-based game that simulates a claw machine. Players can choose to play as a guest or log in to save their collected toys.
+# 🕹️ Claw Machine Game  
 
-## 🎮 Features
-✅ Claw Movement – Move the claw left and right using arrow keys.
-✅ Grab Toys – Press the "Grab" button to randomly pick up a toy.
-✅ Game Mode Selection – Choose to play as a guest or log in to save your collection.
-✅ Toy Collection – Captured toys are added to the collection and can be viewed in a sidebar.
-✅ Toy Info Modal – Click on a collected toy to view its details in a pop-up modal.
+A simple web-based claw machine game where players can grab toys and collect them. The game is built using **HTML, CSS, and JavaScript** without a backend.  
 
-**##🛠️ Technologies**
-🔹 HTML, CSS, JavaScript
-🔹 Local Storage for saving toy collections
-🔹 Animations and transitions for a more engaging experience
+## 📚 Features  
+- 🎮 **Claw movement** – Move the claw left and right using arrow keys.  
+- 🎁 **Grab toys** – Press the "Grab" button to pick up a random toy.  
+- 👤 **Guest & Login modes** – Play as a guest or log in to save collected toys.  
+- 📦 **Toy collection** – View collected toys in the side menu.  
+- ℹ️ **Toy info modal** – Click on a toy to see its details in a pop-up modal.  
 
-🚀 How to Run
-Clone the repository:
+## 🔧 Technologies Used  
+- **HTML** – Page structure  
+- **CSS** – Styling and animations  
+- **JavaScript** – Game logic (claw movement, grabbing toys, and managing collections)  
+- **Local Storage** – Save collected toys for logged-in users  
 
-bash
-Copy
-Edit
-git clone https://github.com/username/claw-machine-game.git
-Open index.html in a browser.
+## 📑 How to Run the Project  
+1. Clone this repository:  
+   ```sh
+   git clone https://github.com/username/claw-machine-game.git
+   ```
+2. Navigate to the project folder:  
+   ```sh
+   cd claw-machine-game
+   ```
+3. Open **index.html** in your browser.  
 
-Start playing and collect your favorite toys!
+## 📝 Folder Structure  
+```
+claw-machine-game/
+│-- index.html       # Main game page
+│-- styles.css       # Styling and animations
+│-- script.js        # Game logic
+│-- assets/          # Toy images and other assets
+└── README.md        # Project documentation
+```
 
-Feel free to modify it if needed! 😊
+## 🔄 Contribution  
+If you'd like to contribute, feel free to **fork** this repository and submit a pull request with improvements or new features!  
+
+## 🌐 Live Demo  
+Check out the live demo of this project on **GitHub Pages**:  
+```
+https://username.github.io/claw-machine-game/
+```
+
+---
+
+🎯 Have fun playing and coding! If you have any feedback or suggestions, feel free to reach out! 🚀
