@@ -1,7 +1,7 @@
-**#🕹️ Claw Machine Game**
+**🕹️ Claw Machine Game**
 Claw Machine Game is a web-based game that simulates a claw machine. Players can choose to play as a guest or log in to save their collected toys.
 
-**## 🎮 Features**
+## 🎮 Features
 ✅ Claw Movement – Move the claw left and right using arrow keys.
 ✅ Grab Toys – Press the "Grab" button to randomly pick up a toy.
 ✅ Game Mode Selection – Choose to play as a guest or log in to save your collection.
