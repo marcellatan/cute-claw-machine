@@ -22,7 +22,7 @@ A simple web-based claw machine game where players can grab toys and collect the
    ```
 2. Navigate to the project folder:  
    ```sh
-   cd claw-machine-game
+   cd cute-claw-machine
    ```
 3. Open **index.html** in your browser.  
 
